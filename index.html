@@ -132,7 +132,10 @@
      console.log('manager role');
    }
 
-  //  or ||
+  //  The “OR” operator is represented with two vertical line symbols:
+  // In classical programming, the logical OR is meant to manipulate boolean values only. 
+  // If any of its arguments are true, it returns true, otherwise it returns false
+  
   let hour = 15;
   if (hour < 10 || hour > 18) {
    console.log( 'The office is closed.' );
@@ -140,6 +143,21 @@
   else{
     console.log('The office is open');
   }
+
+  // The AND operator is represented with two ampersands &&:
+  // In classical programming, AND returns true if both operands are truthy and false otherwise:
+
+  let mummy = 'Namukose Rose', 
+      daddy = 'Bwaita Godfrey';
+  
+  if (mummy == 'Namukose Rose' && daddy == 'Bwaita Godfrey'){
+     console.log('this has worked');
+  }
+
+  // Precedence of AND && is higher than OR ||
+// The precedence of AND && operator is higher than OR ||.
+// So the code a && b || c && d is essentially the same as if the && expressions were in parentheses: (a && b) || (c && d).
+
  
   </script>
 </body>
